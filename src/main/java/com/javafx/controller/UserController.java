@@ -22,6 +22,5 @@ public class UserController {
         BusinessUser businessUser = new BusinessUser(name, email, phone, cnpj);
 
         storageService.saveBusinessUser(businessUser);
-
     }
 }

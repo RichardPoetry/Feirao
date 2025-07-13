@@ -11,6 +11,7 @@ public class StorageImpl implements Storage {
     List<PersonalUser> personalUsers = new ArrayList<>();
     List<BusinessUser> businessUsers = new ArrayList<>();
 
+
     @Override
     public void savePersonalUser(PersonalUser personalUser) {
         personalUsers.add(personalUser);
